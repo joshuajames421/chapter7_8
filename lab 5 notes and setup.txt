@@ -1,0 +1,8 @@
+﻿    1. Create the input file. 
+    2. Main File
+        1. Methods:
+            1. Error Handling
+                1. Missing field
+                2. Non-numeric score
+                3. Invalid Score Value(0 < or >100)
+                Exception Handling
