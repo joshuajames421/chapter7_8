@@ -8,7 +8,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class StudentScores2 {
+public class StudentScores {
     public static void main(String[] args){
         String gradesFile = "lab5/src/main/resources/grades.txt";
         String averageFile = "lab5/src/main/resources/averages.txt";
@@ -60,6 +60,10 @@ public class StudentScores2 {
             String[] parts = lines[i].split(",");
             String name = parts[0];
             try {
+                if (parts.length > 4) {
+                    processedLines[i] = name + ",Error: Too many scores provided.";
+                    continue;
+                }
                 int score1 = Integer.parseInt(parts[1].trim());
                 int score2 = Integer.parseInt(parts[2].trim());
                 int score3 = Integer.parseInt(parts[3].trim());

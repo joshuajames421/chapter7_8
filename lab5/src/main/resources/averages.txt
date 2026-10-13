@@ -1,0 +1,12 @@
+S101,90.67
+S102,79.33
+S103,96.00
+S104,75.67
+S105,Error: Invalid number format or missing scores.
+S106,Error: Invalid number format or missing scores.
+S107,Error: Score exceeds maximum value of 100.
+S108,Error: Negative score encountered.
+S109,Error: Too many scores provided.
+S110,Error: Invalid number format or missing scores.
+S111,99.00
+S112,87.67
